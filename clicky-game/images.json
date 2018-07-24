@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "name": "Thigh Master",
+      "clicked": false,
+      "image":
+        "https://cdn.shopify.com/s/files/1/0245/5023/products/fitness-suzanne-fitness-starter-pack-ez-gym-plus-thighmaster-toning-system-2.jpg?v=1450125064"
+    },
+    {
+      "id": 2,
+      "name": "Potty Putter",
+      "clicked": false,
+      "image":
+        "https://tenbuckgifts.com/wp-content/uploads/2017/04/potty-putter.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Shake Weight",
+      "clicked": false,
+      "image":
+        "http://www.mybargainbuddy.com/wp/wp-content/uploads/2014/02/3-lb-shake-weight.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Snuggie",
+      "clicked": false,
+      "image":
+        "https://www.isurfdeals.com/image/cache/catalog/s/n/snuggie_fleece_blanket_with_sleeves-700x700.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Shamwow",
+      "clicked": false,
+      "image":
+        "https://www.dhresource.com/0x0s/f2-albu-g2-M01-F7-FB-rBVaGlX37GGAci2LAAJ-xbaCHQQ182.jpg/2015-new-hot-sale-fashion-shammy-shamwow.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Oxiclean",
+      "clicked": false,
+      "image":
+        "https://static01.nyt.com/images/2009/06/28/obituaries/29mays_450.jpg"
+    },
+    {
+      "id": 7,
+      "name": "HD Vision",
+      "clicked": false,
+      "image":
+        "http://www.asseenontvandbeyond.com/assets/images/hd-vision-wraparounds.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Chia Pet",
+      "clicked": false,
+      "image":
+        "https://pics.drugstore.com/prodimg/599858/900.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Egg Genie",
+      "clicked": false,
+      "image":
+        "https://ak1.ostkcdn.com//images/products/8003277/Big-Boss-Egg-Genie-Electric-Egg-Cooker-and-Steamer-39e04926-05d2-4f27-8e70-9df079c72807.jpg"
+    }
+]
