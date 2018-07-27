@@ -6,19 +6,44 @@ import "./GameContainer.css";
 class GameContainer extends Component {
     state = {
         images,
-        alert: "Click any image to begin!",
         score: 0,
-        highScore: 0
+        highScore: 0,
+        message: "Click a photo to begin!",
+        clicked: []
 
     };
 
-    handleClick = (id, clicked) => {
 
-        const currentImgs = this.state.images;
+    shuffleImgs = (arr) => {
+        var i, j, currentArr;
+        for (i = arr.length - 1; i > 0; i--) {
+            j = Math.floor(Math.random() * (i + 1));
+            currentArr = arr[i];
+            arr[i] = arr[j];
+            arr[j] = currentArr;
+        }
+        return arr;
+    }
 
-
-
+    handleClick = id => {
+        this.shuffleImgs
+            (this.state.images);
+        if (this.state.clicked.indexOf(id) === -1) {
+            this.setState({
+                score: this.state.score + 1,
+                clicked: [...this.state.clicked, id]
+            })
+        } else {
+            this.setState({
+                images,
+                clicked: [],
+                score: 0,
+                message: "You guessed incorrectly!",
+                highScore: this.state.score
+            });
+        }
     };
+
 
 
     render() {

@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Jumbotron.css";
+import images from "../../images.json";
 
 
 const Jumbotron = () => (
@@ -7,6 +8,7 @@ const Jumbotron = () => (
   <div className="container text-center">
     <h1 className="display-4">Infomercial Memory Game!</h1>
     <p className="lead">Click on an informercial product photo to earn points, only click each photo once!</p>
+    <h3 className="message">{images.message}</h3>
   </div>
 </div>
 );
