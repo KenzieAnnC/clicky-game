@@ -1,9 +1,5 @@
-
-
-.main {
-  width: 960px;
-}
-
 body {
   max-width: 100%;
+  background-image: url("../src/images/light-grey-terrazzo.png");
 }
+

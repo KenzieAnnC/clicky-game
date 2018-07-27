@@ -13,6 +13,7 @@ const ImgCard = props => (
 		src={ props.image }
 		alt={ props.name }
 		/>
+	<br/>
 	</div>
 );
 

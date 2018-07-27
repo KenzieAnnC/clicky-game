@@ -44,15 +44,13 @@ class GameContainer extends Component {
         }
     };
 
-
-
     render() {
         return (
             <div className="container-fluid gameCont">
                 <div className="text-center">
                     <h3 className="message">{this.state.message}</h3>
                 </div>
-                <div className="text-center">
+                <div className="text-center score">
                     <p>Score: {this.state.score}</p>
                     <p>High Score: {this.state.highScore}</p>
                 </div>
