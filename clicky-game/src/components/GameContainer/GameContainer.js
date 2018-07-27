@@ -38,7 +38,7 @@ class GameContainer extends Component {
                 images,
                 clicked: [],
                 score: 0,
-                message: "You guessed incorrectly!",
+                message: "Doh! You already guessed that one!",
                 highScore: this.state.score
             });
         }
@@ -49,6 +49,9 @@ class GameContainer extends Component {
     render() {
         return (
             <div className="container-fluid gameCont">
+                <div className="text-center">
+                    <h3 className="message">{this.state.message}</h3>
+                </div>
                 <div className="text-center">
                     <p>Score: {this.state.score}</p>
                     <p>High Score: {this.state.highScore}</p>

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Jumbotron.css";
 import images from "../../images.json";
+import GameContainer from '../GameContainer';
 
 
 const Jumbotron = () => (
